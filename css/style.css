@@ -1,0 +1,154 @@
+/*global css start*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a{
+    text-decoration: none;
+}
+
+ol, li{
+    list-style-type: none;
+}
+
+/*global css end*/
+
+.live-course-card {
+  background: #fff;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.06);
+  transition: transform 0.3s ease;
+  border: 1px solid #ececec;
+  overflow: hidden;
+}
+
+
+.live-course-card h5 {
+  font-size: 20px;
+  color: #716027;
+  font-weight: 700;
+  margin-bottom: 0.5rem;
+}
+
+.live-course-card .live-course-cta h6 {
+  font-size: 0.875rem;
+  color: #888;
+  margin-bottom: 0.25rem;
+}
+
+.live-course-card .live-course-info p {
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.live-course-info i {
+  color: #716027;
+}
+
+.live-course-info img{
+  width: 30px;
+  height: auto;
+}
+
+.live-course-cta span {
+  font-weight: 600;
+}
+
+.course-fee {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+}
+
+.course-fee p{
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.course-fee p span{
+    color: rgb(25,135,84);
+}
+
+.course-fee small{
+    color: #dc3545;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+.live-batch-num button{
+  background-color: #716027;
+  color: #fff;
+}
+
+.live-batch-num button:hover{
+  background-color: #716027;
+  color: #fff;
+}
+
+.batch_schedule {
+  border: 1px solid #716027;
+  background: transparent;
+  color: #716027;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+  font-size: 0.875rem;
+  transition: 0.3s;
+}
+
+.batch_schedule:hover {
+  background: #716027;
+  color: #fff;
+}
+
+.live-course-review{
+  font-size: 18px;
+}
+
+.live-course-review h6 {
+  margin-right: 0.5rem;
+}
+
+.live-review-star ul {
+  display: flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.live-review-star ul {
+  color: #e7bd00;
+}
+
+.live-review-star span {
+  font-size: 0.8rem;
+  color: #555;
+  margin-left: 0.5rem;
+}
+
+.live-course-button {
+  margin-top: 1rem;
+  gap: 1rem;
+}
+
+.live-course-button .live-course-btn {
+  background: #716027;
+  color: white;
+  border-radius: 2rem;
+  font-size: 0.9rem;
+  text-decoration: none;
+  transition: background 0.3s;
+  border-radius: 5px;
+}
+
+.live-course-button .live-course-btn:hover {
+  background: #584e21;
+}
